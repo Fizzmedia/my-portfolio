@@ -105,19 +105,12 @@
                 </p>
             </div>
 
-            <div class="project-card">
-                <h3>Landing Page</h3>
-                <p>
-                    Responsive landing page with elegant layouts.
-                </p>
-            </div>
-
-            <div class="project-card">
-                <h3>Registration Form</h3>
-                <p>
-                    Clean and accessible registration form.
-                </p>
-            </div>
+            <a href="Projects/layout.html" target="_blank" class="project-link" >
+                <div class="project-card">
+                    <h3>Landing Page</h3>
+                    <p>Responsive landing page with elegant layouts.</p>
+                </div>
+            </a>
 
         </div>
     </section>
@@ -126,13 +119,15 @@
         <h2>Contact</h2>
 
         <div class="card">
-            <form>
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your Email">
-                <textarea rows="5" placeholder="Your Message"></textarea>
+            <form action="https://formsubmit.co/franklynokoronkwo104@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea rows="5" name="message" row="5" placeholder="Your Message" required></textarea>
                 <button type="submit" class="btn primary">
                     Send Message
                 </button>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="https://fizzmedia.github.io/Franklyns-portfolio/">
             </form>
         </div>
     </section>
